@@ -14,7 +14,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @SpringBootApplication
-@RestController
 public class DemoApplication extends SpringBootServletInitializer implements CommandLineRunner {
 	@Value("${spring.application.name:defaultValue}")
 	private String name;
